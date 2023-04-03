@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lissajous</title>
+</head>
+
+<body>
+    <h1>Lissajous</h1>
+    <canvas id="canvas" width="500" height="500"></canvas>
+
+    <h2>Parameter</h2>
+    <div>
+        <button id="x-decrease">-1</button>
+        <input type="range" id="x" min="1" max="100" value="1">
+        <button id="x-increase">+1</button>
+        <label for="x">x = </label>
+        <span id="x-value">1</span>
+    </div>
+    <div>
+        <button id="y-decrease">-1</button>
+        <input type="range" id="y" min="1" max="100" value="1">
+        <button id="y-increase">+1</button>
+        <label for="y">y = </label>
+        <span id="y-value">1</span>
+    </div>
+
+    <h2>Download</h2>
+    <div>
+        <button id="download">Download</button>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
